@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +9,75 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+
+/* my custom css */
+
+:root {
+  --primary: #2BC5AC;
+  --secondary: #2B72C5;
+}
+
+.container {
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.primBtn {
+  padding: 7px 30px;
+  border-radius: 15px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 5px 20px rgb(185, 185, 185);
+  transition: 300ms;
+}
+
+.primBtn:hover {
+  border: 1px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  cursor: pointer;
+  box-shadow: 2px 5px 20px rgb(185, 185, 185);
+}
+
+.primBtn:active {
+  border: 1px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgb(135, 135, 135);
+  transform: scale(.95);
+  transform-origin: bottom center;
+}
+
+.mainHead {
+  font-size: 3em;
+  color: var(--secondary);
+}
+
+
+.mainPara {
+  font-weight: 400;
+  font-size: 1.1em;
+  max-width: 650px;
+}
+
+@media screen and (max-width: 1025px) {
+  .mainHead {
+    font-size: 2.5em;
+  }
 }

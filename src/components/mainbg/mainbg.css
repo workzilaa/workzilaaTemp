@@ -1,0 +1,14 @@
+.main {
+    /* border: 1px solid red; */
+    min-height: 650px;
+    background: url(/public/img/mainbg.png);
+    background-size: cover;
+    background-position: left bottom;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 550px) {
+    .main {
+        height: 90vh;
+    }
+}

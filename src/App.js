@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Mainbg from './components/mainbg/mainbg';
+import { FaArrowUp } from 'react-icons/fa';
+import Services from './components/services/services';
+import Operation from './components/operation/operation';
+import Footer from './components/footer/footer';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Mainbg />
+      {/* <div className="arrowUp"><FaArrowUp className='arrow' /></div> */}
+      <Services />
+      <Operation />
+      <Footer/>
     </div>
   );
 }

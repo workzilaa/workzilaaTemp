@@ -1,0 +1,134 @@
+.OperationContainer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.OperateContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operateHead {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.steps {
+    width: 50%;
+    /* border: 1px solid red; */
+    height: inherit;
+
+}
+
+.mapImg {
+    width: 50%;
+    /* border: 1px solid red; */
+    height: inherit;
+}
+
+.mapImg img {
+    width: 100%;
+}
+
+.operateCard {
+    width: 75%;
+    /* border: 1px solid green; */
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0 0 5px silver;
+    transition: 300ms all;
+    margin: 20px 0;
+}
+
+.operateCard:nth-child(2) {
+    position: relative;
+    left: 100px;
+}
+
+.operateCard:hover {
+    box-shadow: 5px 5px 20px silver;
+    transform: scale(1.005);
+}
+
+.operateCard h2 {
+    color: var(--secondary);
+}
+
+
+
+@media screen and (max-width: 1025px) {
+
+    .steps {
+        width: 60%;
+    }
+
+    .mapImg {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .OperateContent {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .steps {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .mapImg {
+        width: 50%;
+    }
+
+    .operateCard h2 {
+        font-size: 1.2rem;
+    }
+
+    .operateCard p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .OperateContent {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .steps {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .mapImg {
+        width: 100%;
+    }
+
+    .operateCard h2 {
+        font-size: 1.2rem;
+    }
+
+    .operateCard p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .operateCard:nth-child(2) {
+        position: relative;
+        left: 0px;
+    }
+
+    .operateCard {
+        width: 100%;
+    }
+}
