@@ -7,17 +7,17 @@ const Operation = () => {
       <div className="container OperationContainer">
         <div className="operateHead">
           <h1 className='mainHead'>How do we Operate</h1>
-          <p className='mainPara'>Simplified operation with online onetap booking and apointing a worker and getting your work done.</p>
+          <p className='mainPara'>Simplified operation with online one-tap booking and apointing worker and getting your work done.</p>
         </div>
         <div className="OperateContent">
           <div className="steps">
             <div className="operateCard">
               <h2>Book Service</h2>
-              <p>book for a service and waiat for our sxecutive confirms from his side</p>
+              <p>book for a service and wait for our executive confirms from his side</p>
             </div>
             <div className="operateCard">
               <h2>At your doorstep</h2>
-              <p>as our worker arrives your doosrsteps, confirm the otp and payment. and work begins..</p>
+              <p>as our worker arrives your doorsteps, confirm the otp and payment, and work begins..</p>
             </div>
             <div className="operateCard">
               <h2>what next</h2>

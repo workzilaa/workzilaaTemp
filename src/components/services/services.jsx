@@ -20,23 +20,23 @@ const Services = () => {
           </div>
           <div className="card">
             <AiFillFormatPainter className='cardIcon' />
-            <h3>Plumbing<br />Services</h3>
+            <h3>Painting<br />Contracts</h3>
           </div>
           <div className="card">
             <MdArchitecture className='cardIcon' />
-            <h3>Plumbing<br />Services</h3>
+            <h3>Construction<br />Work</h3>
           </div>
           <div className="card">
             <MdCarpenter className='cardIcon' />
-            <h3>Plumbing<br />Services</h3>
+            <h3>Carpainting<br />Works</h3>
           </div>
           <div className="card">
             <GiVacuumCleaner className='cardIcon' />
-            <h3>Plumbing<br />Services</h3>
+            <h3>Maid<br />Works</h3>
           </div>
           <div className="card">
             <RiParentFill className='cardIcon' />
-            <h3>Plumbing<br />Services</h3>
+            <h3>Parenting<br />Works</h3>
           </div>
         </div>
       </div>
